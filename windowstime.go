@@ -13,7 +13,8 @@ var ErrInvalidInput = errors.New("Invalid input")
 
 // Convert takes an 18 digit number representing the 100s of nanoseconds since Jan 1, 1601
 // and returns a time in UTC
-// returns Jan 1, 1601 as time on error
+//
+// Returns Jan 1, 1601 as time on error
 func Convert(input string) (time.Time, error) {
 	var (
 		nanosecs             int
