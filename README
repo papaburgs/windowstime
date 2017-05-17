@@ -1,0 +1,6 @@
+# windowstime
+
+Small module and utility (designed to be run from linux command line) to take the 18 digit time found in
+ldap records and convert to a human readable time
+
+The module has a function to return a time.Time value so it can be used elsewhere
